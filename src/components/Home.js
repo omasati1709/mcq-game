@@ -11,6 +11,7 @@ function Home() {
                 <Link to="/question/1">
                     <button className="start-button">Start Quiz</button>
                 </Link>
+                <p className="copyright"> @omasati</p>
             </div>
         </div>
     );

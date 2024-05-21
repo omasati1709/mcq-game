@@ -4,24 +4,21 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #f0f0f0; /* Set background color for the entire page */
 }
 
 .box {
-  background-color: #fff; /* Set background color for the box */
-  border-radius: 10px;
+  background-color: #ffffff;
   padding: 20px;
+  border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  width: 80%; /* Adjust the width as needed */
-  max-width: 600px; /* Set maximum width */
-  text-align: center; /* Center align the content */
+  text-align: center;
 }
 
 .start-button {
-  padding: 15px 30px;
-  font-size: 18px;
+  padding: 10px 20px;
+  font-size: 16px;
   background-color: #007bff;
-  color: #fff;
+  color: #ffffff;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -29,4 +26,11 @@
 
 .start-button:hover {
   background-color: #0056b3;
+}
+
+/* Copyright notice */
+.copyrigth {
+  margin-top: 20px;
+  font-size: 20px;
+  color: #888888;
 }
