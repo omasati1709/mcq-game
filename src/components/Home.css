@@ -1,0 +1,32 @@
+/* Home.css */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0; /* Set background color for the entire page */
+}
+
+.box {
+  background-color: #fff; /* Set background color for the box */
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 80%; /* Adjust the width as needed */
+  max-width: 600px; /* Set maximum width */
+  text-align: center; /* Center align the content */
+}
+
+.start-button {
+  padding: 15px 30px;
+  font-size: 18px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.start-button:hover {
+  background-color: #0056b3;
+}

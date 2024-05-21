@@ -1,0 +1,60 @@
+/* Question.css */
+.question-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0; /* Set background color for the entire page */
+}
+
+.question-box {
+  background-color: #fff; /* Set background color for the box */
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 80%; /* Adjust the width as needed */
+  max-width: 600px; /* Set maximum width */
+}
+
+.question-content {
+  text-align: center; /* Center align the content */
+  margin-bottom: 20px; /* Add margin to space the elements */
+}
+
+.question-options {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.question-options li {
+  margin-bottom: 10px;
+  cursor: pointer;
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.question-options li:hover {
+  background-color: #e0e0e0;
+}
+
+.selected {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.question-buttons {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.question-buttons button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.question-buttons button:last-child {
+  margin-right: 0;
+}
